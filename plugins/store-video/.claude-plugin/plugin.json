@@ -1,0 +1,6 @@
+{
+  "name": "store-video",
+  "version": "1.0.0",
+  "description": "用 Remotion 制作 App 商店宣传视频的完整流程（选项目 → 需求 → Figma → 分镜 → 文案 → BGM → 自检预览 → 渲染）",
+  "author": { "name": "lee" }
+}

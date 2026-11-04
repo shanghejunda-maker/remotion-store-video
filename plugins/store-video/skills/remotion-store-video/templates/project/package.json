@@ -1,0 +1,25 @@
+{
+  "name": "remotion-effects",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Remotion 动效 / 商店视频项目：每个视频放在 effects/<name>/，共享根目录依赖",
+  "scripts": {
+    "setup": "bash scripts/setup.sh",
+    "studio": "remotion studio",
+    "render": "remotion render",
+    "typecheck": "tsc --noEmit",
+    "verify": "bash scripts/verify.sh",
+    "versions": "remotion versions"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.538",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "remotion": "4.0.538"
+  },
+  "devDependencies": {
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0",
+    "typescript": "5.9.3"
+  }
+}

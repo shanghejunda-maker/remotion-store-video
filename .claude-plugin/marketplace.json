@@ -1,0 +1,11 @@
+{
+  "name": "remotion-store-video",
+  "owner": { "name": "lee" },
+  "plugins": [
+    {
+      "name": "store-video",
+      "source": "./plugins/store-video",
+      "description": "用 Remotion 制作 App 商店宣传视频的完整流程"
+    }
+  ]
+}
