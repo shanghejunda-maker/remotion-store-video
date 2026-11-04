@@ -4,6 +4,18 @@
 
 skill 本体在 [`plugins/store-video/skills/remotion-store-video/`](plugins/store-video/skills/remotion-store-video/)，详细说明见其中的 [`SKILL.md`](plugins/store-video/skills/remotion-store-video/SKILL.md) 和 [`README.md`](plugins/store-video/skills/remotion-store-video/README.md)。
 
+## 直接把链接发给 Claude 安装
+
+在 Claude Code（终端或桌面版 Code 模式）里，把本仓库链接发给 Claude，说“安装这个 skill”即可。Claude 应执行：
+
+```bash
+git clone --depth 1 https://github.com/shanghejunda-maker/remotion-store-video /tmp/remotion-store-video
+mkdir -p ~/.claude/skills
+cp -R /tmp/remotion-store-video/plugins/store-video/skills/remotion-store-video ~/.claude/skills/
+```
+
+skill 文件夹在 `plugins/store-video/skills/remotion-store-video/`（不在仓库根目录），里面有 `SKILL.md`。装完重开会话，`/skills` 里能看到 `remotion-store-video`。
+
 ## 安装
 
 ### Claude Code（推荐：支持弹窗选择、本机装依赖和渲染）
